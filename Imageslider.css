@@ -1,0 +1,54 @@
+.slider {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .image-container {
+    margin: 20px 0;
+  }
+  
+  .image-container img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .nav-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .option-circles {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .circle.active {
+    background-color: #007bff;
+  }
+  
